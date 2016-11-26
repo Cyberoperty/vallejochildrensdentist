@@ -1,0 +1,412 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'Conv_HelveticaRounded-Black';
+	src: url('../fonts/HelveticaRounded-Black.eot');
+	src: local('☺'), url('../fonts/HelveticaRounded-Black.woff') format('woff'), url('../fonts/HelveticaRounded-Black.ttf') 		    format('truetype'), url('../fonts/HelveticaRounded-Black.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.topmarginbox {
+	background-color:#a9c5fd;
+	min-height:150px;
+}
+
+.bottommarginbox {
+	background-color:#ffd64b;
+	min-height:180px;
+}
+
+.mainvideo {
+	margin-top:-35px;
+}
+
+.titlebanner {
+	margin-top:10px;
+	min-height:30px;
+	max-height: 30px;
+	position:relative;
+	padding-left:7%;
+	padding-right:7%;
+}
+
+.leftbutterfly {
+	margin-top:150px;
+	margin-left:15px;
+}
+
+.leftfirefly {
+	margin-top:30px;
+	margin-left:20px;
+}
+
+.teethkids {
+	margin-top:15px;
+}
+
+.rightbutterfly1 {
+	margin-top: 50px;
+	margin-left: -10px;
+	-moz-transform: scaleX(-1);    /* Gecko */
+  	-o-transform: scaleX(-1);      /* Opera */
+  	-webkit-transform: scaleX(-1); /* Webkit */
+  	transform: scaleX(-1);         /* Standard */
+  	filter: FlipH;                 /* IE 6/7/8 */
+}
+
+.rightfirefly {
+	margin-top: 10px;
+	margin-left: 10px;
+	-moz-transform: scaleX(-1);    /* Gecko */
+  	-o-transform: scaleX(-1);      /* Opera */
+  	-webkit-transform: scaleX(-1); /* Webkit */
+  	transform: scaleX(-1);         /* Standard */
+  	filter: FlipH;                 /* IE 6/7/8 */
+}
+
+.rightbutterfly2 {
+	margin-top: 20px;
+	margin-left: -15px;
+}
+
+.cliftphoto {
+	margin-top:-20px;
+}
+
+.ptext {
+	font-family:Georgia, Constantia, "Lucida Bright", "DejaVu Serif", serif;
+	font-size:10px;
+	color:#231f20;
+	margin-top:10px;
+}
+
+.bluethankyou {
+	font-weight:bold;
+	font-family:Conv_HelveticaRounded-Black, Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
+	color:#0077c0;
+	text-align:center;
+	font-size:12px;
+	margin-top:10px;
+}
+
+.orangethankyou {
+	font-weight:bold;
+	font-family:Conv_HelveticaRounded-Black, Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
+	color:#fba919;
+	text-align:center;
+	font-size:12px;
+	margin-top:-20px;
+	margin-bottom:50px;
+}
+
+.titletext {
+	font-weight:bold;
+	font-family:Conv_HelveticaRounded-Black, Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
+	color:rgba(0,119,192,1.00);
+	letter-spacing:5px;
+	text-align:center;
+	font-size:12px;
+	line-height:30px;
+	margin-top:-30px;
+	position:relative;
+}
+
+.mainlist {
+	font-weight:bold;
+	font-family:Conv_HelveticaRounded-Black, Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
+	color:#0077c0;
+	font-size:12px;
+	margin-top:20px;
+}
+
+.memberof {
+	font-weight:bold;
+	font-family:Conv_HelveticaRounded-Black, Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
+	color:#0077c0;
+	font-size:12px;
+	margin-top:20px;
+}
+
+.mushrooms {
+	position:relative;
+	margin-top:-5px;
+}
+
+.ada {
+	font-family:Georgia, Constantia, "Lucida Bright", "DejaVu Serif", serif;
+	font-size:8px;
+	text-align:center;
+	color:#ffffff;
+	position:absolute;
+	top:30%;
+	left:7.5%;
+}
+
+.nsds {
+	font-family:Georgia, Constantia, "Lucida Bright", "DejaVu Serif", serif;
+	font-size:8px;
+	text-align:center;
+	color:#ffffff;
+	position:absolute;
+	top:7%;
+	left:40%;
+}
+.cda {
+	font-family:Georgia, Constantia, "Lucida Bright", "DejaVu Serif", serif;
+	font-size:8px;
+	text-align:center;
+	color:#ffffff;
+	position:absolute;
+	top:30%;
+	left:70%;
+}
+
+.extrapadding {
+	padding-left:2%;
+	padding-right:2%;
+}
+
+@media (min-width: 355px) {
+	.titletext {
+		font-size:24px;
+		line-height:40px;
+		margin-top:-40px;
+	}
+	
+	.titlebanner {
+		min-height:40px;
+		max-height: 40px;
+	}
+	
+	.ptext {
+		font-size: 12px;
+	}
+	
+	.bluethankyou {
+		font-size: 18px;
+	}
+	.orangethankyou {
+		font-size: 18px;
+	}
+	
+	.mainlist {
+		font-size: 14px;
+	}
+	
+	.memberof {
+		font-size: 14px;
+	}
+	
+	.ada {
+		font-size: 12px;
+	}
+	
+	.nsds {
+		font-size: 12px;
+	}
+	
+	.cda {
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 440px) {
+	.titletext {
+		font-size:15px;
+		line-height:35px;
+		margin-top:-35px;
+	}
+	
+	.titlebanner {
+		min-height:35px;
+		margin-top:10px;
+	}
+	
+	.ptext {
+		font-size:8px;
+		margin-top:10px;
+	}
+	
+	.bluethankyou {
+		font-size:10px;
+		margin-top: 10px;
+	}
+	
+	.orangethankyou {
+		font-size:10px;
+		margin-top: -20px;
+	}
+	
+	.extrapadding {
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+	
+	.mainvideo {
+		margin-top:10px;
+	}
+	
+	.mainlist {
+		font-size: 10px;
+		margin-top: 10px;
+		margin-left: -30px;
+	}
+	
+	.memberof {
+		font-size: 10px;
+		margin-top: 10px;
+	}
+	
+	.mushrooms {
+		margin-top:0px;
+	}
+	
+	.ada {
+		font-size:6px;
+	}
+	
+	.nsds {
+		font-size:6px;
+		top:6%;
+		left:40%;
+	}
+	
+	.cda {
+		font-size:6px;
+		left:68%;
+	}
+}
+
+@media (min-width: 600px) {
+	.titletext {
+		font-size:24px;
+		line-height:45px;
+		margin-top:-45px;
+	}
+	
+	.titlebanner {
+		min-height:45px;
+		margin-top:10px;
+	}
+	
+	.topmarginbox {
+		min-height:200px;
+	}
+
+	.bottommarginbox {
+		min-height:240px;
+	}
+	
+	.ptext {
+		font-size:11px;
+		margin-top:10px;
+	}
+	
+	.bluethankyou {
+		font-size:16px;
+		margin-top: 10px;
+	}
+	
+	.orangethankyou {
+		font-size:16px;
+		margin-top: -20px;
+	}
+	
+	.mainlist {
+		font-size: 12px;
+		margin-top: 10px;
+		margin-left: -30px;
+	}
+	
+	.memberof {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	
+	.ada {
+		font-size:8px;
+	}
+	
+	.nsds {
+		font-size:8px;
+		top:6%;
+		left:40%;
+	}
+	
+	.cda {
+		font-size:8px;
+		left:68%;
+	}
+}
+
+@media (min-width: 840px) {
+	.titletext {
+		font-size:36px;
+		line-height:63px;
+		margin-top:-63px;
+	}
+	
+	.topmarginbox {
+		min-height:300px;
+	}
+	
+	.bottommarginbox {
+		min-height: 300px;
+	}
+	
+	.titlebanner {
+		min-height:63px;
+		margin-top:20px;
+	}
+	
+	.ptext {
+		font-size:14px;
+		margin-top:20px;
+	}
+	
+	.bluethankyou {
+		font-size:24px;
+		margin-top: 20px;
+	}
+	
+	.orangethankyou {
+		font-size:24px;
+		margin-top: -25px;
+	}
+	
+	.mainvideo {
+		margin-top:20px;
+	}
+	
+	.mainlist {
+		font-size: 16px;
+		margin-top: 50px;
+		margin-left: 0px;
+	}
+	
+	.memberof {
+		font-size: 16px;
+		margin-top: 50px;
+	}
+	
+	.mushrooms {
+		margin-top:-5px;
+	}
+	
+	.ada {
+		font-size:12px;
+	}
+	
+	.nsds {
+		font-size:12px;
+		top:5%;
+		left:40%;
+	}
+	
+	.cda {
+		font-size:12px;
+		left:70%;
+	}
+}
